@@ -3,6 +3,7 @@ import GameBoard from './components/GameBoard/GameBoard';
 import Player from './components/Player/Player';
 import './index.css';
 import Log from './components/Log/Log';
+import { WINNING_COMBINATIONS } from './winning-combinations';
 
 function derivedActivePlayer(gameTurns) {
   let currentPlayer = 'X';
